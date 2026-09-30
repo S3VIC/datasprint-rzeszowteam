@@ -3,12 +3,15 @@
 public static class Program {
 	public static Int32 Main(String[] args) {
 		try {
-			if (args.Length < 2) {
-				Console.Error.WriteLine($"Usage: {CliArgumentsParser.Usage}");
+			CliOptions options;
+			try {
+				options = CliArgumentsParser.Parse(args);
+			}
+			catch (Exception exception) when (exception is ArgumentException or FileNotFoundException) {
+				Console.Error.WriteLine(exception.Message);
+				LogUsageInfo();
 				return 1;
 			}
-
-			CliOptions options = CliArgumentsParser.Parse(args);
 			String sql = QueryBuilder.BuildSqlCommand(options.ParquetPath, options.CityFilter, options.Limit);
 
 			Console.WriteLine($"SQL query: {sql}");
@@ -22,5 +25,9 @@ public static class Program {
 			Console.Error.WriteLine(exception.Message);
 			return 1;
 		}
+	}
+
+	private static void LogUsageInfo() {
+		Console.Error.WriteLine($"INFO: Usage: {CliArgumentsParser.Usage}");
 	}
 }
