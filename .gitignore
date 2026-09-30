@@ -1,0 +1,4 @@
+norm.cli/bin
+norm.cli/obj
+
+**/*.csv
