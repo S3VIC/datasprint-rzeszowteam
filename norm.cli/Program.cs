@@ -9,7 +9,7 @@ public static class Program {
 	public static Int32 Main(String[] args) {
 		try {
 			if (args.Length < 2) {
-				Console.Error.WriteLine("Usage: norm.cli <parquet-path> <city-name> [output-csv-path]");
+				Console.Error.WriteLine("Usage: norm.cli <parquet-path> <city-name[,city-name...]> [output-csv-path]");
 				return 1;
 			}
 
@@ -35,16 +35,34 @@ public static class Program {
 			throw new ArgumentException("Parquet path cannot be empty.", nameof(parquetPath));
 		}
 
-		if (string.IsNullOrWhiteSpace(cityName)) {
+		String[] cityFilters = ParseCityFilters(cityName);
+
+		String escapedParquetPath = EscapeSqlLiteral(parquetPath);
+		const String normalizedColumnExpression = $"translate(upper(\"mrch_city_nm_raw\"), '{PolishUpperDiacritics}', '{AsciiUpperReplacements}')";
+		String cityPredicate = String.Join(
+			" or ",
+			cityFilters.Select(filter => $"{normalizedColumnExpression} like '{EscapeSqlLiteral(BuildCityLikePattern(filter))}'")
+		);
+		String columns = String.Join(',', QueryConstants.SelectQueryFields);
+		return
+			$"select {columns} from read_parquet('{escapedParquetPath}') where ({cityPredicate}) and cp_flag = 1 and transaction_type = 'POS' group by all;";
+	}
+
+	private static String[] ParseCityFilters(String cityName) {
+		if (String.IsNullOrWhiteSpace(cityName)) {
 			throw new ArgumentException("City name cannot be empty.", nameof(cityName));
 		}
 
-		String escapedParquetPath = EscapeSqlLiteral(parquetPath);
-		String cityLikePattern = EscapeSqlLiteral(BuildCityLikePattern(cityName));
-		const String normalizedColumnExpression = $"translate(upper(\"mrch_city_nm_raw\"), '{PolishUpperDiacritics}', '{AsciiUpperReplacements}')";
-		String columns = String.Join(',', QueryConstants.SelectQueryFields);
-		return
-			$"select {columns} from read_parquet('{escapedParquetPath}') where {normalizedColumnExpression} like '{cityLikePattern}' and cp_flag = 1 and transaction_type = 'POS' group by all;";
+		String[] cityFilters = cityName
+			.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
+			.Where(filter => !String.IsNullOrWhiteSpace(filter))
+			.ToArray();
+
+		if (cityFilters.Length == 0) {
+			throw new ArgumentException("At least one city name must be provided.", nameof(cityName));
+		}
+
+		return cityFilters;
 	}
 
 	private static String BuildCityLikePattern(string cityName) {
