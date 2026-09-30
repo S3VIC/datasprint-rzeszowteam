@@ -6,9 +6,12 @@ public static class QueryBuilder {
 	private const String NormalizedCityColumnExpression =
 		$"translate(upper(\"mrch_city_nm_raw\"), '{PolishUpperDiacritics}', '{AsciiUpperReplacements}')";
 
-	public static String BuildSqlCommand(String parquetPath, String cityFilter) {
+	public static String BuildSqlCommand(String parquetPath, String cityFilter, Int32? limit = null) {
 		if (String.IsNullOrWhiteSpace(parquetPath)) {
 			throw new ArgumentException("Parquet path cannot be empty.", nameof(parquetPath));
+		}
+		if (limit is <= 0) {
+			throw new ArgumentException("Limit must be greater than zero.", nameof(limit));
 		}
 
 		String[] cityFilters = ParseCityFilters(cityFilter);
@@ -18,8 +21,9 @@ public static class QueryBuilder {
 			cityFilters.Select(filter => $"{NormalizedCityColumnExpression} like '{SqlLiteralEscaper.Escape(BuildCityLikePattern(filter))}'")
 		);
 		String columns = String.Join(',', QueryConstants.SelectQueryFields);
+		String limitClause = limit.HasValue ? $" limit {limit.Value}" : String.Empty;
 		return
-			$"select {columns} from read_parquet('{escapedParquetPath}') where ({cityPredicate}) and cp_flag = 1 and transaction_type = 'POS' group by all;";
+			$"select {columns} from read_parquet('{escapedParquetPath}') where ({cityPredicate}) and cp_flag = 1 and transaction_type = 'POS' group by all{limitClause};";
 	}
 
 	private static String[] ParseCityFilters(String cityFilter) {
