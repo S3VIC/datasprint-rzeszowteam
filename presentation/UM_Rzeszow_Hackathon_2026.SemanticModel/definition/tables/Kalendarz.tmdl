@@ -1,0 +1,109 @@
+table Kalendarz
+	lineageTag: 6c045fa7-3e69-4831-b43c-993239c820e7
+
+	column Date
+		formatString: Short Date
+		lineageTag: 642e289e-b535-497c-8d4e-1a15947b4621
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Odmiana
+			isDefault
+			relationship: e319942e-9d8f-4f90-9d46-198fcaf77124
+			defaultHierarchy: LocalDateTable_29f6798b-3f01-49f8-a6e8-c622e8d1f2d9.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rok
+		formatString: 0
+		lineageTag: 16f7ff2b-1e20-4094-a9ba-45381742bfb8
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Rok]
+
+		annotation SummarizationSetBy = Automatic
+
+	column MiesiacNr
+		formatString: 0
+		lineageTag: 63e45585-0a27-4785-8851-1fdd71263fa1
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [MiesiacNr]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Miesiac
+		lineageTag: dd813507-afa1-4cb1-b0b7-9252a9e14f86
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Miesiac]
+
+		annotation SummarizationSetBy = Automatic
+
+	column RokMiesiac
+		dataType: int64
+		formatString: 0
+		lineageTag: 74000bdc-8dba-4454-805a-7a64b0f1aa27
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [RokMiesiac]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Kwartal
+		lineageTag: e3e8cfa7-af18-4797-93c7-cfecee4aff9f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Kwartal]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dzien
+		formatString: 0
+		lineageTag: d726d542-640e-4dc4-9ae4-4333f87cbb01
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Dzien]
+
+		annotation SummarizationSetBy = Automatic
+
+	column DzienTygodniaNr
+		formatString: 0
+		lineageTag: 54408785-9fd8-4757-94b4-518cbc1df435
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [DzienTygodniaNr]
+
+		annotation SummarizationSetBy = Automatic
+
+	column DzienTygodnia
+		lineageTag: b3278ca9-a013-4042-8305-915c378f04c3
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [DzienTygodnia]
+		sortByColumn: DzienTygodniaNr
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Kalendarz = calculated
+		mode: import
+		source =
+				
+				VAR DataPoczatkowa = DATE(2025, 1, 1)
+				VAR DataKoncowa = DATE(2026, 06, 30)
+				RETURN
+				ADDCOLUMNS(
+				    CALENDAR(DataPoczatkowa, DataKoncowa),
+				    "Rok", YEAR([Date]),
+				    "MiesiacNr", MONTH([Date]),
+				    "Miesiac", FORMAT([Date], "MMMM"),
+				    "RokMiesiac", FORMAT([Date], "YYYYMM"),
+				    "Kwartal", "Q" & FORMAT([Date], "Q"),
+				    "Dzien", DAY([Date]),
+				    "DzienTygodniaNr", WEEKDAY([Date], 2),
+				    "DzienTygodnia", FORMAT([Date], "dddd")
+				)
+
+	annotation PBI_Id = 20ec9c0863234040a39e13a265be7e27
+

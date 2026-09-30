@@ -1,0 +1,27 @@
+relationship e319942e-9d8f-4f90-9d46-198fcaf77124
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Kalendarz.Date
+	toColumn: LocalDateTable_29f6798b-3f01-49f8-a6e8-c622e8d1f2d9.Date
+
+relationship fcb183d1-1ed2-c68e-197c-b95ea81028c1
+	fromColumn: dane_hackathon.prch_dt
+	toColumn: Kalendarz.Date
+
+relationship b0f87fac-d140-39cd-ab83-2fef04bf3e22
+	fromColumn: dane_hackathon.mrch_nm_raw
+	toColumn: MapowanieSprzedawcow.Sprzedawca_old
+
+relationship 34fadc93-7e6d-355b-9081-5bfcbf255dda
+	fromColumn: dane_hackathon.mrch_catg_nm
+	toColumn: 'Mapowanie kategorii'.'Kategoria źródłowa'
+
+relationship ddce11f4-9347-42d4-8305-6909c7254d78
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Imprezy.Impreza_start
+	toColumn: LocalDateTable_6aef9075-76e7-4bcd-a552-04a34043cf8e.Date
+
+relationship 0a4a9d89-045b-4d68-a467-afc3a1d3e1ad
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Imprezy.Impreza_koniec
+	toColumn: LocalDateTable_d3ed399a-6999-4dd4-ac24-f14f9621f724.Date
+

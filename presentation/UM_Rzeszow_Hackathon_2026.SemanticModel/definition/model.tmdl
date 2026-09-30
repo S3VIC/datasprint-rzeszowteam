@@ -1,0 +1,27 @@
+model Model
+	culture: pl-PL
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pl-PL
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dane_hackathon","MapowanieSprzedawcow","Mapowanie kategorii","Imprezy"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dane_hackathon
+ref table Kalendarz
+ref table DateTableTemplate_ba4187e0-4053-49ef-8154-79b34ada6e04
+ref table LocalDateTable_29f6798b-3f01-49f8-a6e8-c622e8d1f2d9
+ref table MapowanieSprzedawcow
+ref table 'Mapowanie kategorii'
+ref table Imprezy
+ref table LocalDateTable_6aef9075-76e7-4bcd-a552-04a34043cf8e
+ref table LocalDateTable_d3ed399a-6999-4dd4-ac24-f14f9621f724
+
+ref cultureInfo pl-PL
+

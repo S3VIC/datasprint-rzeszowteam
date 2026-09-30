@@ -1,0 +1,230 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "bc6c48bcd1e032633d15",
+  "position": {
+    "x": 356.25,
+    "y": 443.75,
+    "z": 19000,
+    "height": 356.25,
+    "width": 921.25,
+    "tabOrder": 19000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Mapowanie kategorii"
+                    }
+                  },
+                  "Property": "Kategoria główna"
+                }
+              },
+              "queryRef": "Mapowanie kategorii.Kategoria główna",
+              "nativeQueryRef": "Kategoria główna"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Imprezy"
+                    }
+                  },
+                  "Property": "Średnia PRZED wartość transakcji"
+                }
+              },
+              "queryRef": "Imprezy.Średnia PRZED wartość transakcji",
+              "nativeQueryRef": "Średnia PRZED wartość transakcji",
+              "format": "#,0 \"zł\";-#,0 \"zł\";#,0 \"zł\""
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Imprezy"
+                    }
+                  },
+                  "Property": "Wartość_transakcji EVENT"
+                }
+              },
+              "queryRef": "Imprezy.Wartość_transakcji EVENT",
+              "nativeQueryRef": "Wartość_transakcji EVENT",
+              "format": "#,0 \"zł\";-#,0 \"zł\";#,0 \"zł\""
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Imprezy"
+                    }
+                  },
+                  "Property": "Średnia PO wartość transakcji"
+                }
+              },
+              "queryRef": "Imprezy.Średnia PO wartość transakcji",
+              "nativeQueryRef": "Średnia PO wartość transakcji",
+              "format": "#,0 \"zł\";-#,0 \"zł\";#,0 \"zł\""
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Imprezy"
+                  }
+                },
+                "Property": "Wartość_transakcji EVENT"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Calibri'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'TOP 10 kategorii wg wartości transakcji'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "252bc962637a4880b22c",
+        "ordinal": 0,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dane_hackathon"
+              }
+            },
+            "Property": "cs_tran_amt"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
+        "name": "06919de825620ae39464",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Mapowanie kategorii"
+              }
+            },
+            "Property": "Kategoria główna"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "d803b9ef236237847801",
+        "ordinal": 2,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Imprezy"
+              }
+            },
+            "Property": "Średnia PRZED wartość transakcji"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "9d848dc67d01d187d8cb",
+        "ordinal": 3,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Imprezy"
+              }
+            },
+            "Property": "Wartość_transakcji EVENT"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "ab4aaed5006830c0e60b",
+        "ordinal": 4,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Imprezy"
+              }
+            },
+            "Property": "Średnia PO wartość transakcji"
+          }
+        },
+        "type": "Advanced"
+      }
+    ],
+    "filterSortOrder": "Custom"
+  }
+}

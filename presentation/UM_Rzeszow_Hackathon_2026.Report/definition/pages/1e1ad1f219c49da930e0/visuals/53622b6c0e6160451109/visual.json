@@ -1,0 +1,146 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "53622b6c0e6160451109",
+  "position": {
+    "x": 345.55555555555554,
+    "y": 1248.8888888888889,
+    "z": 25000,
+    "height": 251.11111111111111,
+    "width": 684.44444444444446,
+    "tabOrder": 25000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dane_hackathon"
+                    }
+                  },
+                  "Property": "Turysta"
+                }
+              },
+              "queryRef": "dane_hackathon.Turysta",
+              "nativeQueryRef": "Turysta",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Kalendarz"
+                    }
+                  },
+                  "Property": "DzienTygodnia"
+                }
+              },
+              "queryRef": "Kalendarz.DzienTygodnia",
+              "nativeQueryRef": "DzienTygodnia",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Arithmetic": {
+                  "Left": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "dane_hackathon"
+                            }
+                          },
+                          "Property": "tran_cnt"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "Right": {
+                    "ScopedEval": {
+                      "Expression": {
+                        "Aggregation": {
+                          "Expression": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Entity": "dane_hackathon"
+                                }
+                              },
+                              "Property": "tran_cnt"
+                            }
+                          },
+                          "Function": 0
+                        }
+                      },
+                      "Scope": [
+                        {
+                          "RoleRef": {
+                            "Role": "Columns"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "Operator": 3
+                }
+              },
+              "queryRef": "Sum(dane_hackathon.tran_cnt)",
+              "nativeQueryRef": "% sumy kolumn Suma elementów tran_cnt",
+              "displayName": "Ilość transakcji",
+              "format": "0.0%;-0.0%;0.0%"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Kalendarz"
+                  }
+                },
+                "Property": "DzienTygodnia"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "subTotals": [
+        {
+          "properties": {
+            "rowSubtotals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

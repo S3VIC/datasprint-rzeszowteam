@@ -1,0 +1,35 @@
+table 'Mapowanie kategorii'
+	lineageTag: b32b0d8a-6c67-4445-9017-235ea0ae499e
+
+	column 'Kategoria źródłowa'
+		dataType: string
+		lineageTag: 018acffb-6361-4cbb-9cbd-63e483e187e4
+		summarizeBy: none
+		sourceColumn: Kategoria źródłowa
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Kategoria główna'
+		dataType: string
+		lineageTag: e0ee9b7d-66ed-46cd-873a-5226aa716cdc
+		summarizeBy: none
+		sourceColumn: Kategoria główna
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Mapowanie kategorii' = m
+		mode: import
+		source =
+				let
+				    Źródło = Excel.Workbook(File.Contents("C:\Users\JO\Desktop\Hackathon\mapowanie_kategorii.xlsx"), null, true),
+				    #"Mapowanie kategorii_Sheet" = Źródło{[Item="Mapowanie kategorii",Kind="Sheet"]}[Data],
+				    #"Zmieniono typ" = Table.TransformColumnTypes(#"Mapowanie kategorii_Sheet",{{"Column1", type text}, {"Column2", type text}}),
+				    #"Nagłówki o podwyższonym poziomie" = Table.PromoteHeaders(#"Zmieniono typ", [PromoteAllScalars=true]),
+				    #"Zmieniono typ1" = Table.TransformColumnTypes(#"Nagłówki o podwyższonym poziomie",{{"Kategoria źródłowa", type text}, {"Kategoria główna", type text}})
+				in
+				    #"Zmieniono typ1"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+

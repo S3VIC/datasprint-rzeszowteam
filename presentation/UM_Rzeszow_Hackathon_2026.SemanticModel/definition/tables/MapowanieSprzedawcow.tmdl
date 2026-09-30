@@ -1,0 +1,42 @@
+table MapowanieSprzedawcow
+	lineageTag: 1eef440f-6b09-4582-bdaf-a83626231d21
+
+	column Sprzedawca_old
+		dataType: string
+		lineageTag: f1d2805e-6033-4807-88af-8222479764af
+		summarizeBy: none
+		sourceColumn: Sprzedawca_old
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sprzedawca_new (wzorcowa)'
+		dataType: string
+		lineageTag: 8d553e43-3305-4fc1-bd57-87f3bf6ce69d
+		summarizeBy: none
+		sourceColumn: Sprzedawca_new (wzorcowa)
+
+		annotation SummarizationSetBy = Automatic
+
+	column mrch_nm_raw_new
+		dataType: string
+		lineageTag: 40a42a7a-1547-428e-9b70-3263d633374a
+		summarizeBy: none
+		sourceColumn: mrch_nm_raw_new
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MapowanieSprzedawcow = m
+		mode: import
+		source =
+				let
+				    Źródło = Excel.Workbook(File.Contents("C:\Users\JO\Desktop\Hackathon\agregacja_sprzedawcow new.xlsx"), null, true),
+				    MapowanieSprzedawcow_Table = Źródło{[Item="MapowanieSprzedawcow",Kind="Table"]}[Data],
+				    #"Zmieniono typ" = Table.TransformColumnTypes(MapowanieSprzedawcow_Table,{{"Sprzedawca_old", type text}, {"Sprzedawca_new (wzorcowa)", type text}, {"Nazwa zbiorcza po oczyszczeniu", type text}}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Zmieniono typ",{{"Nazwa zbiorcza po oczyszczeniu", "mrch_nm_raw_new"}})
+				in
+				    #"Zmieniono nazwy kolumn"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+

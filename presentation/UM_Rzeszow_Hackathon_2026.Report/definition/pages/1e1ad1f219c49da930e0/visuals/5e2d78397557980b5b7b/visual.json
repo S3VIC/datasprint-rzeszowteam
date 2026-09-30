@@ -1,0 +1,314 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "5e2d78397557980b5b7b",
+  "position": {
+    "x": 344.44444444444446,
+    "y": 1098.8888888888889,
+    "z": 23000,
+    "height": 138.88888888888889,
+    "width": 685.55555555555554,
+    "tabOrder": 23000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dane_hackathon"
+                    }
+                  },
+                  "Property": "Turysta"
+                }
+              },
+              "queryRef": "dane_hackathon.Turysta",
+              "nativeQueryRef": "Turysta"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dane_hackathon"
+                        }
+                      },
+                      "Property": "pymt_crd_acct_num_raw"
+                    }
+                  },
+                  "Function": 2
+                }
+              },
+              "queryRef": "dane_hackathon.pymt_crd_acct_num_raw",
+              "nativeQueryRef": "Liczba kart",
+              "displayName": "Liczba kart"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dane_hackathon"
+                        }
+                      },
+                      "Property": "tran_cnt"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(dane_hackathon.tran_cnt)",
+              "nativeQueryRef": "Ilość transakcji",
+              "displayName": "Ilość transakcji",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dane_hackathon"
+                        }
+                      },
+                      "Property": "cs_tran_amt"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(dane_hackathon.cs_tran_amt)",
+              "nativeQueryRef": "Wartość transakcji",
+              "displayName": "Wartość transakcji",
+              "format": "#,0 \"zł\";-#,0 \"zł\";#,0 \"zł\""
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "dane_hackathon"
+                        }
+                      },
+                      "Property": "cs_tran_amt"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Avg(dane_hackathon.cs_tran_amt)",
+              "nativeQueryRef": "Średnia wartość transakcji",
+              "displayName": "Średnia wartość transakcji",
+              "format": "#,0 \"zł\";-#,0 \"zł\";#,0 \"zł\""
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "fb471e4c515302601bc3",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dane_hackathon"
+              }
+            },
+            "Property": "Turysta"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "1a55b7452147370574cb",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dane_hackathon"
+                  }
+                },
+                "Property": "pymt_crd_acct_num_raw"
+              }
+            },
+            "Function": 2
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "868b9c840ab1b88b0e0c",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dane_hackathon"
+                  }
+                },
+                "Property": "tran_cnt"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "766913fc18575e4eb076",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dane_hackathon"
+                  }
+                },
+                "Property": "cs_tran_amt"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "d6172deda6ec5bd26279",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dane_hackathon"
+                  }
+                },
+                "Property": "cs_tran_amt"
+              }
+            },
+            "Function": 1
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

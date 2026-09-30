@@ -1,0 +1,4978 @@
+cultureInfo pl-PL
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dane_hackathon": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dane hackathon": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dane_hackathon": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.pymt_crd_acct_num_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "pymt_crd_acct_num_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pymt crd acct num raw": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pymt_crd_acct_num_raw": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "pymt crd acct number raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.prod_id_pltfrm_cd_vcis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "prod_id_pltfrm_cd_vcis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prod id pltfrm cd vcis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prod_id_pltfrm_cd_vcis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "prod identification pltfrm cd vcis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "prod identity pltfrm cd vcis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "prod identifier pltfrm cd vcis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "prod credential pltfrm cd vcis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.transaction_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "transaction_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "transaction category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "transaction brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "transaction class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.transaction_pos_entry_mode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "transaction_pos_entry_mode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction pos entry mode": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_pos_entry_mode": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mode": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "entry mode": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pos entry mode": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "transaction pos entry manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "transaction pos entry method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "transaction pos entry genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "pos entry manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pos entry method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pos entry genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "entry manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "entry method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "entry genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "transaction pos entry style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.mrch_nm_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "mrch_nm_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "mrch nm raw": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mrch_nm_raw": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.mrch_catg_cd": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "mrch_catg_cd"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mrch catg cd": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mrch_catg_cd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mrch catg album": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "mrch catg disk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mrch catg disc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mrch catg recording": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.mrch_catg_nm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "mrch_catg_nm"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "mrch catg nm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mrch_catg_nm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.mrch_city_nm_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "mrch_city_nm_raw"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mrch city nm raw": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mrch_city_nm_raw": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mrch location nm raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "mrch metropolis nm raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "mrch municipality nm raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "mrch town nm raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "mrch metropolitan nm raw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.cs_tran_amt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "cs_tran_amt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cs tran amt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cs_tran_amt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.issr_jurn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "issr_jurn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "issr jurn": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "issr_jurn": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.issr_ctry_cd": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "issr_ctry_cd"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "issr ctry cd": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "issr_ctry_cd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "issr ctry album": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "issr ctry disk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "issr ctry disc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "issr ctry recording": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.issr_ctry_nm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "issr_ctry_nm"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "issr ctry nm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "issr_ctry_nm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Obszar przypisany do karty": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.crd_typ_cd": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "crd_typ_cd"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crd typ cd": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crd_typ_cd": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "crd typ album": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "crd typ disk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "crd typ disc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "crd typ recording": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.crd_typ_nm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "crd_typ_nm"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crd typ nm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crd_typ_nm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.channel_flg": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "channel_flg"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "channel flg": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "channel_flg": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.cp_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "cp_flag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cp flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cp_flag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cp ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cp pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cp pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cp emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cp streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cp standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cp bunting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cp banner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.prch_mnth_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "prch_mnth_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prch mnth id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prch_mnth_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "prch mnth identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "prch mnth identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "prch mnth identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "prch mnth credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.prch_dt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "prch_dt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prch dt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prch_dt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dane_hackathon.myweek": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "myweek"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "myweek": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.report_ctry": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "report_ctry"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "report ctry": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "report_ctry": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "information ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commentary ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "description ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "presentation ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statement ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "forecast ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "account ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "article ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "narrative ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "paper ctry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.lau_enr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "lau_enr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lau enr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lau_enr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kalendarz": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "kalendarz.date.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "VariationSource": "Date",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.date.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "VariationSource": "Date",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period rok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.date.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "VariationSource": "Date",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period kwartał": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.date.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "VariationSource": "Date",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period miesiąc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.date.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "VariationSource": "Date",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period dzień": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.miesiac_nr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "MiesiacNr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiac nr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MiesiacNr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.miesiac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "Miesiac"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiac": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.rok_miesiac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "RokMiesiac"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok miesiac": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RokMiesiac": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.kwartal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "Kwartal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartal": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.dzien": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "Dzien"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzien": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.dzien_tygodnia_nr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "DzienTygodniaNr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzien tygodnia nr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DzienTygodniaNr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kalendarz.dzien_tygodnia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Kalendarz",
+			          "ConceptualProperty": "DzienTygodnia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzien tygodnia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DzienTygodnia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.tran_cnt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "tran_cnt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tran cnt": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tran_cnt": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.turysta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "Turysta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turysta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dane_hackathon.fua_enr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dane_hackathon",
+			          "ConceptualProperty": "fua_enr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fua enr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fua_enr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MapowanieSprzedawcow"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mapowanie sprzedawcow": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MapowanieSprzedawcow": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow.sprzedawca_old": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MapowanieSprzedawcow",
+			          "ConceptualProperty": "Sprzedawca_old"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sprzedawca old": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Sprzedawca_old": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow.Sprzedawca_new_wzorcowa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MapowanieSprzedawcow",
+			          "ConceptualProperty": "Sprzedawca_new (wzorcowa)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Sprzedawca_new (wzorcowa)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Sprzedawca_new": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow.mrch_nm_raw_new": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MapowanieSprzedawcow",
+			          "ConceptualProperty": "mrch_nm_raw_new"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mrch nm raw new": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mrch_nm_raw_new": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_kategorii": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mapowanie kategorii"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mapowanie kategorii": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_kategorii.kategoria_źródłowa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mapowanie kategorii",
+			          "ConceptualProperty": "Kategoria źródłowa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kategoria źródłowa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mapowanie_kategorii.kategoria_główna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mapowanie kategorii",
+			          "ConceptualProperty": "Kategoria główna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kategoria główna": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "imprezy": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.wydarzenie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "ConceptualProperty": "WYDARZENIE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "wydarzenie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_start": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "ConceptualProperty": "Impreza_start"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "impreza start": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Impreza_start": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "impreza twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "impreza jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "impreza jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "impreza flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "impreza jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "impreza shock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "impreza fright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "impreza surprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "impreza turn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "imprezy.impreza_start.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_start",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_start.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_start",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza start rok": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_start.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_start",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza start kwartał": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_start.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_start",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza start miesiąc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_start.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_start",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza start dzień": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_koniec": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "ConceptualProperty": "Impreza_koniec"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "impreza koniec": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Impreza_koniec": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "imprezy.impreza_koniec.hierarchia_dat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_koniec",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarchia dat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_koniec.rok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_koniec",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Rok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza koniec rok": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_koniec.kwartał": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_koniec",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Kwartał"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kwartał": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza koniec kwartał": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_koniec.miesiąc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_koniec",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Miesiąc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "miesiąc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza koniec miesiąc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.impreza_koniec.dzień": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "VariationSource": "Impreza_koniec",
+			          "VariationSet": "Odmiana",
+			          "Hierarchy": "Hierarchia dat",
+			          "HierarchyLevel": "Dzień"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dzień": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "impreza koniec dzień": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "imprezy.Wartość_transakcji_EVENT": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Imprezy",
+			          "ConceptualProperty": "Wartość_transakcji EVENT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Wartość_transakcji EVENT": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wartość_transakcji occurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "wartość_transakcji affair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "wartość_transakcji episode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "wartość_transakcji occasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "wartość_transakcji happening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "wartość_transakcji incident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "wartość_transakcji experience": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "wartość_transakcji consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "wartość_transakcji aftermath": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "wartość_transakcji upshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "Wartość transakcji EVENT": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "imprezy_impreza_koniec_miesiąc_has_imprezy_impreza_koniec_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.miesiąc": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.miesiąc"
+			          }
+			        },
+			        "imprezy.impreza_koniec.dzień": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.dzień"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs2"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_kwartał_has_imprezy_impreza_koniec_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.kwartał": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.kwartał"
+			          }
+			        },
+			        "imprezy.impreza_koniec.miesiąc": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał2"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_rok_has_imprezy_impreza_koniec_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.rok": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.rok"
+			          }
+			        },
+			        "imprezy.impreza_koniec.kwartał": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.rok"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks2"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_hierarchia_dat_has_imprezy_impreza_koniec_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_koniec.dzień": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_hierarchia_dat_has_imprezy_impreza_koniec_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_koniec.miesiąc": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_hierarchia_dat_has_imprezy_impreza_koniec_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_koniec.kwartał": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_hierarchia_dat_has_imprezy_impreza_koniec_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_koniec.rok": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_koniec_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_koniec": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec"
+			          }
+			        },
+			        "imprezy.impreza_koniec.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_koniec"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "impreza_koniecs_have_hierarchia_dat"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_miesiąc_has_imprezy_impreza_start_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.miesiąc": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.miesiąc"
+			          }
+			        },
+			        "imprezy.impreza_start.dzień": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.dzień"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_kwartał_has_imprezy_impreza_start_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.kwartał": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.kwartał"
+			          }
+			        },
+			        "imprezy.impreza_start.miesiąc": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_rok_has_imprezy_impreza_start_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.rok": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.rok"
+			          }
+			        },
+			        "imprezy.impreza_start.kwartał": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.rok"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "imprezy.impreza_start.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_hierarchia_dat_has_imprezy_impreza_start_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_start.dzień": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_hierarchia_dat_has_imprezy_impreza_start_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_start.miesiąc": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_hierarchia_dat_has_imprezy_impreza_start_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_start.kwartał": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_hierarchia_dat_has_imprezy_impreza_start_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.hierarchia_dat"
+			          }
+			        },
+			        "imprezy.impreza_start.rok": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks1"
+			        }
+			      ]
+			    },
+			    "imprezy_impreza_start_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy.impreza_start": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start"
+			          }
+			        },
+			        "imprezy.impreza_start.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy.impreza_start"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "impreza_starts_have_hierarchia_dat"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_miesiąc_has_kalendarz_date_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.miesiąc": {
+			          "Target": {
+			            "Entity": "kalendarz.date.miesiąc"
+			          }
+			        },
+			        "kalendarz.date.dzień": {
+			          "Target": {
+			            "Entity": "kalendarz.date.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_dzień2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.dzień"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_have_miesiącs2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "kalendarz.date.dzień"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "kalendarz.date.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dzień_are_in_miesiącs"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_kwartał_has_kalendarz_date_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.kwartał": {
+			          "Target": {
+			            "Entity": "kalendarz.date.kwartał"
+			          }
+			        },
+			        "kalendarz.date.miesiąc": {
+			          "Target": {
+			            "Entity": "kalendarz.date.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.kwartał"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_miesiącs2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.miesiąc"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_have_kwartał2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "kalendarz.date.miesiąc"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "kalendarz.date.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "miesiącs_are_in_kwartał"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_rok_has_kalendarz_date_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.rok": {
+			          "Target": {
+			            "Entity": "kalendarz.date.rok"
+			          }
+			        },
+			        "kalendarz.date.kwartał": {
+			          "Target": {
+			            "Entity": "kalendarz.date.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.rok"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "roks_have_kwartał2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.kwartał"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_have_roks2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "kalendarz.date.kwartał"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "kalendarz.date.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kwartał_are_in_roks"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_hierarchia_dat_has_kalendarz_date_dzień": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "kalendarz.date.hierarchia_dat"
+			          }
+			        },
+			        "kalendarz.date.dzień": {
+			          "Target": {
+			            "Entity": "kalendarz.date.dzień"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.dzień"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_dzień2"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_hierarchia_dat_has_kalendarz_date_miesiąc": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "kalendarz.date.hierarchia_dat"
+			          }
+			        },
+			        "kalendarz.date.miesiąc": {
+			          "Target": {
+			            "Entity": "kalendarz.date.miesiąc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.miesiąc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_miesiącs2"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_hierarchia_dat_has_kalendarz_date_kwartał": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "kalendarz.date.hierarchia_dat"
+			          }
+			        },
+			        "kalendarz.date.kwartał": {
+			          "Target": {
+			            "Entity": "kalendarz.date.kwartał"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.kwartał"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_kwartał2"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_hierarchia_dat_has_kalendarz_date_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "kalendarz.date.hierarchia_dat"
+			          }
+			        },
+			        "kalendarz.date.rok": {
+			          "Target": {
+			            "Entity": "kalendarz.date.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date.hierarchia_dat"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarchia_dat_have_roks2"
+			        }
+			      ]
+			    },
+			    "kalendarz_date_has_hierarchia_dat": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz.date": {
+			          "Target": {
+			            "Entity": "kalendarz.date"
+			          }
+			        },
+			        "kalendarz.date.hierarchia_dat": {
+			          "Target": {
+			            "Entity": "kalendarz.date.hierarchia_dat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz.date"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date.hierarchia_dat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_hierarchia_dat"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_mapowanie_kategorii": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "mapowanie_kategorii": {
+			          "Target": {
+			            "Entity": "mapowanie_kategorii"
+			          },
+			          "Nouns": [
+			            {
+			              "mrch catg nm": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_kategorii"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_mapowanie_kategoriis"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_kategorii"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_kategoriis_have_dane_hackathons"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_mapowanie_sprzedawcow": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "mapowanie_sprzedawcow": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_sprzedawcow"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_mapowanie_sprzedawcows"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_sprzedawcow"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_sprzedawcows_have_dane_hackathons"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_kalendarz": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          },
+			          "Nouns": [
+			            {
+			              "prch dt": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "kalendarz"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_kalendarzzes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_dane_hackathons"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_imprezy_Wartość_transakcji_EVENT": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "imprezy.Wartość_transakcji_EVENT": {
+			          "Target": {
+			            "Entity": "imprezy.Wartość_transakcji_EVENT"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "imprezy.Wartość_transakcji_EVENT"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_Wartość_transakcji_EVENT"
+			        }
+			      ]
+			    },
+			    "imprezy_has_Wartość_transakcji_EVENT": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy": {
+			          "Target": {
+			            "Entity": "imprezy"
+			          }
+			        },
+			        "imprezy.Wartość_transakcji_EVENT": {
+			          "Target": {
+			            "Entity": "imprezy.Wartość_transakcji_EVENT"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy"
+			            },
+			            "Object": {
+			              "Role": "imprezy.Wartość_transakcji_EVENT"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "imprezys_have_Wartość_transakcji_EVENT"
+			        }
+			      ]
+			    },
+			    "imprezy_has_impreza_koniec": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy": {
+			          "Target": {
+			            "Entity": "imprezy"
+			          }
+			        },
+			        "imprezy.impreza_koniec": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_koniec"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_koniec"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "imprezys_have_impreza_koniecs"
+			        }
+			      ]
+			    },
+			    "imprezy_has_impreza_start": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy": {
+			          "Target": {
+			            "Entity": "imprezy"
+			          }
+			        },
+			        "imprezy.impreza_start": {
+			          "Target": {
+			            "Entity": "imprezy.impreza_start"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy"
+			            },
+			            "Object": {
+			              "Role": "imprezy.impreza_start"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "imprezys_have_impreza_starts"
+			        }
+			      ]
+			    },
+			    "imprezy_has_wydarzenie": {
+			      "Binding": {
+			        "ConceptualEntity": "Imprezy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "imprezy": {
+			          "Target": {
+			            "Entity": "imprezy"
+			          }
+			        },
+			        "imprezy.wydarzenie": {
+			          "Target": {
+			            "Entity": "imprezy.wydarzenie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "imprezy"
+			            },
+			            "Object": {
+			              "Role": "imprezy.wydarzenie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "imprezys_have_wydarzenies"
+			        }
+			      ]
+			    },
+			    "mapowanie_kategorii_has_kategoria_główna": {
+			      "Binding": {
+			        "ConceptualEntity": "Mapowanie kategorii"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapowanie_kategorii": {
+			          "Target": {
+			            "Entity": "mapowanie_kategorii"
+			          }
+			        },
+			        "mapowanie_kategorii.kategoria_główna": {
+			          "Target": {
+			            "Entity": "mapowanie_kategorii.kategoria_główna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_kategorii"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_kategorii.kategoria_główna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_kategoriis_have_kategoria_głównas"
+			        }
+			      ]
+			    },
+			    "mapowanie_kategorii_has_kategoria_źródłowa": {
+			      "Binding": {
+			        "ConceptualEntity": "Mapowanie kategorii"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapowanie_kategorii": {
+			          "Target": {
+			            "Entity": "mapowanie_kategorii"
+			          }
+			        },
+			        "mapowanie_kategorii.kategoria_źródłowa": {
+			          "Target": {
+			            "Entity": "mapowanie_kategorii.kategoria_źródłowa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_kategorii"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_kategorii.kategoria_źródłowa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_kategoriis_have_kategoria_źródłowas"
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow_has_mrch_nm_raw_new": {
+			      "Binding": {
+			        "ConceptualEntity": "MapowanieSprzedawcow"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapowanie_sprzedawcow": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow"
+			          }
+			        },
+			        "mapowanie_sprzedawcow.mrch_nm_raw_new": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow.mrch_nm_raw_new"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_sprzedawcow"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_sprzedawcow.mrch_nm_raw_new"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_sprzedawcows_have_mrch_nm_raw_new"
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow_has_Sprzedawca_new_wzorcowa": {
+			      "Binding": {
+			        "ConceptualEntity": "MapowanieSprzedawcow"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapowanie_sprzedawcow": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow"
+			          }
+			        },
+			        "mapowanie_sprzedawcow.Sprzedawca_new_wzorcowa": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow.Sprzedawca_new_wzorcowa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_sprzedawcow"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_sprzedawcow.Sprzedawca_new_wzorcowa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_sprzedawcows_have_Sprzedawca_new_wzorcowa"
+			        }
+			      ]
+			    },
+			    "mapowanie_sprzedawcow_has_sprzedawca_old": {
+			      "Binding": {
+			        "ConceptualEntity": "MapowanieSprzedawcow"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapowanie_sprzedawcow": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow"
+			          }
+			        },
+			        "mapowanie_sprzedawcow.sprzedawca_old": {
+			          "Target": {
+			            "Entity": "mapowanie_sprzedawcow.sprzedawca_old"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapowanie_sprzedawcow"
+			            },
+			            "Object": {
+			              "Role": "mapowanie_sprzedawcow.sprzedawca_old"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapowanie_sprzedawcows_have_sprzedawca_old"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_fua_enr": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.fua_enr": {
+			          "Target": {
+			            "Entity": "dane_hackathon.fua_enr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.fua_enr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_fua_enrs"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_turysta": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.turysta": {
+			          "Target": {
+			            "Entity": "dane_hackathon.turysta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.turysta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_turystas"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_tran_cnt": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.tran_cnt": {
+			          "Target": {
+			            "Entity": "dane_hackathon.tran_cnt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.tran_cnt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_tran_cnts"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_dzien_tygodnia": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.dzien_tygodnia": {
+			          "Target": {
+			            "Entity": "kalendarz.dzien_tygodnia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.dzien_tygodnia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_dzien_tygodnias"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_dzien_tygodnia_nr": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.dzien_tygodnia_nr": {
+			          "Target": {
+			            "Entity": "kalendarz.dzien_tygodnia_nr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.dzien_tygodnia_nr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_dzien_tygodnia_nr"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_dzien": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.dzien": {
+			          "Target": {
+			            "Entity": "kalendarz.dzien"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.dzien"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_dziens"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_kwartal": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.kwartal": {
+			          "Target": {
+			            "Entity": "kalendarz.kwartal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.kwartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_kwartals"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_rok_miesiac": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.rok_miesiac": {
+			          "Target": {
+			            "Entity": "kalendarz.rok_miesiac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.rok_miesiac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_rok_miesiacs"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_miesiac": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.miesiac": {
+			          "Target": {
+			            "Entity": "kalendarz.miesiac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.miesiac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_miesiacs"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_miesiac_nr": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.miesiac_nr": {
+			          "Target": {
+			            "Entity": "kalendarz.miesiac_nr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.miesiac_nr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_miesiac_nr"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_rok": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.rok": {
+			          "Target": {
+			            "Entity": "kalendarz.rok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.rok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_roks"
+			        }
+			      ]
+			    },
+			    "kalendarz_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Kalendarz"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kalendarz": {
+			          "Target": {
+			            "Entity": "kalendarz"
+			          }
+			        },
+			        "kalendarz.date": {
+			          "Target": {
+			            "Entity": "kalendarz.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kalendarz"
+			            },
+			            "Object": {
+			              "Role": "kalendarz.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kalendarzzes_have_dates"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_lau_enr": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.lau_enr": {
+			          "Target": {
+			            "Entity": "dane_hackathon.lau_enr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.lau_enr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_lau_enrs"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_report_ctry": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.report_ctry": {
+			          "Target": {
+			            "Entity": "dane_hackathon.report_ctry"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.report_ctry"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_report_ctries"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_myweek": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.myweek": {
+			          "Target": {
+			            "Entity": "dane_hackathon.myweek"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.myweek"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_myweeks"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_prch_dt": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.prch_dt": {
+			          "Target": {
+			            "Entity": "dane_hackathon.prch_dt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.prch_dt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_prch_dts"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_prch_mnth_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.prch_mnth_id": {
+			          "Target": {
+			            "Entity": "dane_hackathon.prch_mnth_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.prch_mnth_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_prch_mnth_ids"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_cp_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.cp_flag": {
+			          "Target": {
+			            "Entity": "dane_hackathon.cp_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.cp_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_cp_flags"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_channel_flg": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.channel_flg": {
+			          "Target": {
+			            "Entity": "dane_hackathon.channel_flg"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.channel_flg"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_channel_flgs"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_crd_typ_nm": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.crd_typ_nm": {
+			          "Target": {
+			            "Entity": "dane_hackathon.crd_typ_nm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.crd_typ_nm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_crd_typ_nm"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_crd_typ_cd": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.crd_typ_cd": {
+			          "Target": {
+			            "Entity": "dane_hackathon.crd_typ_cd"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.crd_typ_cd"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_crd_typ_cd"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_issr_ctry_nm": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.issr_ctry_nm": {
+			          "Target": {
+			            "Entity": "dane_hackathon.issr_ctry_nm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.issr_ctry_nm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_issr_ctry_nm"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_issr_ctry_cd": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.issr_ctry_cd": {
+			          "Target": {
+			            "Entity": "dane_hackathon.issr_ctry_cd"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.issr_ctry_cd"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_issr_ctry_cd"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_issr_jurn": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.issr_jurn": {
+			          "Target": {
+			            "Entity": "dane_hackathon.issr_jurn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.issr_jurn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_issr_jurns"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_cs_tran_amt": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.cs_tran_amt": {
+			          "Target": {
+			            "Entity": "dane_hackathon.cs_tran_amt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.cs_tran_amt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_cs_tran_amts"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_mrch_city_nm_raw": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.mrch_city_nm_raw": {
+			          "Target": {
+			            "Entity": "dane_hackathon.mrch_city_nm_raw"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.mrch_city_nm_raw"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_mrch_city_nm_raw"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_mrch_catg_cd": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.mrch_catg_cd": {
+			          "Target": {
+			            "Entity": "dane_hackathon.mrch_catg_cd"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.mrch_catg_cd"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_mrch_catg_cd"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_transaction_pos_entry_mode": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.transaction_pos_entry_mode": {
+			          "Target": {
+			            "Entity": "dane_hackathon.transaction_pos_entry_mode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.transaction_pos_entry_mode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_transaction_pos_entry_modes"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_transaction_type": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.transaction_type": {
+			          "Target": {
+			            "Entity": "dane_hackathon.transaction_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.transaction_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_transaction_types"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_prod_id_pltfrm_cd_vcis": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.prod_id_pltfrm_cd_vcis": {
+			          "Target": {
+			            "Entity": "dane_hackathon.prod_id_pltfrm_cd_vcis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.prod_id_pltfrm_cd_vcis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_prod_id_pltfrm_cd_vcises"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_has_pymt_crd_acct_num_raw": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.pymt_crd_acct_num_raw": {
+			          "Target": {
+			            "Entity": "dane_hackathon.pymt_crd_acct_num_raw"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Object": {
+			              "Role": "dane_hackathon.pymt_crd_acct_num_raw"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_have_pymt_crd_acct_num_raw"
+			        }
+			      ]
+			    },
+			    "dane_hackathon_in_mrch_city_nm_raw": {
+			      "Binding": {
+			        "ConceptualEntity": "dane_hackathon"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dane_hackathon": {
+			          "Target": {
+			            "Entity": "dane_hackathon"
+			          }
+			        },
+			        "dane_hackathon.mrch_city_nm_raw": {
+			          "Target": {
+			            "Entity": "dane_hackathon.mrch_city_nm_raw"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dane_hackathon.mrch_city_nm_raw"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dane_hackathon"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dane_hackathon.mrch_city_nm_raw"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dane_hackathons_are_in_mrch_city_nm_raw"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,193 @@
+table Imprezy
+	lineageTag: 2f0160c8-9e65-4a7d-9c5f-94dfcfe93616
+
+	measure 'Wartość_transakcji EVENT' =
+			
+			VAR EventStart =
+			    SELECTEDVALUE('Imprezy'[impreza_start])
+			
+			VAR EventEnd =
+			    SELECTEDVALUE('Imprezy'[impreza_koniec])
+			
+			RETURN
+			IF(
+			    ISBLANK(EventStart) || ISBLANK(EventEnd),
+			    BLANK(),
+			    CALCULATE(
+			        SUM('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart,
+			            EventEnd
+			        )
+			    )
+			)
+		formatString: #,0.###############\ "zł";-#,0.###############\ "zł";#,0.###############\ "zł"
+		lineageTag: 8834ffe3-31f8-41be-9f63-f5c6f7bf7b35
+
+		annotation PBI_FormatHint = {"currencyCulture":"pl-PL"}
+
+	measure 'Średnia PRZED wartość transakcji' =
+			
+			VAR EventStart =
+			    SELECTEDVALUE('Imprezy'[impreza_start])
+			
+			VAR EventEnd =
+			    SELECTEDVALUE('Imprezy'[impreza_koniec])
+			
+			VAR Okres1 =
+			    CALCULATE(
+			        Sum('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart - 7,
+			            EventEnd - 7
+			        )
+			    )
+			
+			VAR Okres2 =
+			    CALCULATE(
+			        Sum('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart - 14,
+			            EventEnd - 14
+			        )
+			    )
+			
+			VAR Okres3 =
+			    CALCULATE(
+			        Sum('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart - 21,
+			            EventEnd - 21
+			        )
+			    )
+			
+			RETURN
+			IF(
+			    ISBLANK(EventStart) || ISBLANK(EventEnd),
+			    BLANK(),
+			    DIVIDE(
+			        Okres1 + Okres2 + Okres3,
+			        3
+			    )
+			)
+		formatString: #,0.###############\ "zł";-#,0.###############\ "zł";#,0.###############\ "zł"
+		lineageTag: eeaa5fbe-a452-4f8e-8acc-ae88317caacc
+
+		annotation PBI_FormatHint = {"currencyCulture":"pl-PL"}
+
+	measure 'Średnia PO wartość transakcji' =
+			
+			VAR EventStart =
+			    SELECTEDVALUE('Imprezy'[impreza_start])
+			
+			VAR EventEnd =
+			    SELECTEDVALUE('Imprezy'[impreza_koniec])
+			
+			VAR Okres1 =
+			    CALCULATE(
+			        Sum('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart + 7,
+			            EventEnd + 7
+			        )
+			    )
+			
+			VAR Okres2 =
+			    CALCULATE(
+			        Sum('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart + 14,
+			            EventEnd + 14
+			        )
+			    )
+			
+			VAR Okres3 =
+			    CALCULATE(
+			        Sum('dane_hackathon'[cs_tran_amt]),
+			        REMOVEFILTERS('Kalendarz'),
+			        DATESBETWEEN(
+			            'Kalendarz'[Date],
+			            EventStart + 21,
+			            EventEnd + 21
+			        )
+			    )
+			
+			RETURN
+			IF(
+			    ISBLANK(EventStart) || ISBLANK(EventEnd),
+			    BLANK(),
+			    DIVIDE(
+			        Okres1 + Okres2 + Okres3,
+			        3
+			    )
+			)
+		formatString: #,0.###############\ "zł";-#,0.###############\ "zł";#,0.###############\ "zł"
+		lineageTag: 603e75ea-2d01-462e-ae32-459ab222244b
+
+		annotation PBI_FormatHint = {"currencyCulture":"pl-PL"}
+
+	column WYDARZENIE
+		dataType: string
+		lineageTag: afe30e75-c975-4bab-91a0-b64a81972272
+		summarizeBy: none
+		sourceColumn: WYDARZENIE
+
+		annotation SummarizationSetBy = Automatic
+
+	column Impreza_start
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6fe7c821-f249-479d-8572-84372783133a
+		summarizeBy: none
+		sourceColumn: Impreza_start
+
+		variation Odmiana
+			isDefault
+			relationship: ddce11f4-9347-42d4-8305-6909c7254d78
+			defaultHierarchy: LocalDateTable_6aef9075-76e7-4bcd-a552-04a34043cf8e.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Impreza_koniec
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 62f0f593-7d67-4395-8b09-d05ba0a58138
+		summarizeBy: none
+		sourceColumn: Impreza_koniec
+
+		variation Odmiana
+			isDefault
+			relationship: 0a4a9d89-045b-4d68-a467-afc3a1d3e1ad
+			defaultHierarchy: LocalDateTable_d3ed399a-6999-4dd4-ac24-f14f9621f724.'Hierarchia dat'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Imprezy = m
+		mode: import
+		source =
+				let
+				    Źródło = Excel.Workbook(File.Contents("C:\Users\JO\Desktop\Hackathon\Imprezy sportowe.xlsx"), null, true),
+				    Imprezy_Sheet = Źródło{[Item="Imprezy",Kind="Sheet"]}[Data],
+				    #"Nagłówki o podwyższonym poziomie" = Table.PromoteHeaders(Imprezy_Sheet, [PromoteAllScalars=true]),
+				    #"Zmieniono typ" = Table.TransformColumnTypes(#"Nagłówki o podwyższonym poziomie",{{"WYDARZENIE", type text}, {"Impreza_start", type date}, {"Impreza_koniec", type date}})
+				in
+				    #"Zmieniono typ"
+
+	annotation PBI_ResultType = Table
+

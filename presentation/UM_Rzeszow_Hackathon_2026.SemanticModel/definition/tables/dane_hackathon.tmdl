@@ -1,0 +1,232 @@
+table dane_hackathon
+	lineageTag: c049367a-11f5-4155-afff-b1f88da1a589
+
+	column pymt_crd_acct_num_raw
+		dataType: string
+		lineageTag: 9be8996b-43d6-4c92-8e2d-e071c9bf4932
+		summarizeBy: none
+		sourceColumn: pymt_crd_acct_num_raw
+
+		annotation SummarizationSetBy = Automatic
+
+	column prod_id_pltfrm_cd_vcis
+		dataType: string
+		lineageTag: 8e6c3640-859b-4086-94ca-165e17e4653e
+		summarizeBy: none
+		sourceColumn: prod_id_pltfrm_cd_vcis
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_type
+		dataType: string
+		lineageTag: 73ce8dab-7be2-49d2-b7d2-a0d867ef2ae4
+		summarizeBy: none
+		sourceColumn: transaction_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_pos_entry_mode
+		dataType: string
+		lineageTag: 66fbcfca-2af9-406b-a8d8-ef7c70d339d3
+		summarizeBy: none
+		sourceColumn: transaction_pos_entry_mode
+
+		annotation SummarizationSetBy = Automatic
+
+	column mrch_nm_raw
+		dataType: string
+		lineageTag: d098aca7-24c5-4011-ac4a-b6d4045a2798
+		summarizeBy: none
+		sourceColumn: mrch_nm_raw
+
+		annotation SummarizationSetBy = Automatic
+
+	column mrch_catg_cd
+		dataType: int64
+		formatString: 0
+		lineageTag: bfcda3bd-a68b-4415-ae52-ebca904d644b
+		summarizeBy: sum
+		sourceColumn: mrch_catg_cd
+
+		annotation SummarizationSetBy = Automatic
+
+	column mrch_catg_nm
+		dataType: string
+		lineageTag: 2b04382e-02eb-4b61-8695-3834eb4e4faf
+		summarizeBy: none
+		sourceColumn: mrch_catg_nm
+
+		annotation SummarizationSetBy = Automatic
+
+	column mrch_city_nm_raw
+		dataType: string
+		lineageTag: 6f92ec4d-f395-453f-aec2-6d473f0f7dbb
+		summarizeBy: none
+		sourceColumn: mrch_city_nm_raw
+
+		annotation SummarizationSetBy = Automatic
+
+	column cs_tran_amt
+		dataType: decimal
+		formatString: #,0.###############\ "zł";-#,0.###############\ "zł";#,0.###############\ "zł"
+		lineageTag: d9846eb4-afc9-4dce-8a3e-805137e02a4d
+		summarizeBy: sum
+		sourceColumn: cs_tran_amt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pl-PL"}
+
+	column issr_jurn
+		dataType: string
+		lineageTag: 1d7d38d6-262c-4421-ba3c-c8e00419cd40
+		summarizeBy: none
+		sourceColumn: issr_jurn
+
+		annotation SummarizationSetBy = Automatic
+
+	column issr_ctry_cd
+		dataType: int64
+		formatString: 0
+		lineageTag: d111f9dd-017a-4392-a8af-740fa8638868
+		summarizeBy: sum
+		sourceColumn: issr_ctry_cd
+
+		annotation SummarizationSetBy = Automatic
+
+	column issr_ctry_nm
+		dataType: string
+		lineageTag: 670dc183-19c7-42d2-aa73-57a03a582df0
+		summarizeBy: none
+		sourceColumn: issr_ctry_nm
+
+		annotation SummarizationSetBy = Automatic
+
+	column crd_typ_cd
+		dataType: string
+		lineageTag: 157de0a7-81af-4666-87a3-cf000a6ff7a6
+		summarizeBy: none
+		sourceColumn: crd_typ_cd
+
+		annotation SummarizationSetBy = Automatic
+
+	column crd_typ_nm
+		dataType: string
+		lineageTag: d7307f04-3220-4fe6-9762-97c3ad31a9d4
+		summarizeBy: none
+		sourceColumn: crd_typ_nm
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel_flg
+		dataType: string
+		lineageTag: 04e226cf-e464-4304-8877-3d9d65b060bf
+		summarizeBy: none
+		sourceColumn: channel_flg
+
+		annotation SummarizationSetBy = Automatic
+
+	column cp_flag
+		dataType: int64
+		formatString: 0
+		lineageTag: 356ea782-ce91-4b59-81e4-041ac259687f
+		summarizeBy: sum
+		sourceColumn: cp_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column prch_mnth_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 9fc75549-55f8-4d6f-bae9-6311a604246c
+		summarizeBy: sum
+		sourceColumn: prch_mnth_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column prch_dt
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: d8a5b8d6-d6c2-41a1-bf62-fa25df44c63c
+		summarizeBy: none
+		sourceColumn: prch_dt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column myweek
+		dataType: string
+		lineageTag: a2f12e25-1cf5-4843-88bb-a3c40c822289
+		summarizeBy: none
+		sourceColumn: myweek
+
+		annotation SummarizationSetBy = Automatic
+
+	column report_ctry
+		dataType: int64
+		formatString: 0
+		lineageTag: 8b25d8b7-975c-40d0-b985-94ca2f187fb6
+		summarizeBy: sum
+		sourceColumn: report_ctry
+
+		annotation SummarizationSetBy = Automatic
+
+	column lau_enr
+		dataType: string
+		lineageTag: e8d45ef2-1c92-4f90-be71-793d388057c2
+		summarizeBy: none
+		sourceColumn: lau_enr
+
+		annotation SummarizationSetBy = Automatic
+
+	column tran_cnt
+		dataType: int64
+		formatString: 0
+		lineageTag: da4a71b0-0524-4558-a28c-cb8e00885863
+		summarizeBy: sum
+		sourceColumn: tran_cnt
+
+		annotation SummarizationSetBy = Automatic
+
+	column Turysta = IF(dane_hackathon[issr_ctry_nm]="POLAND", "Krajowy", "Zagraniczny")
+		lineageTag: 012ce6d1-0f25-421e-ba57-ba36de2964b2
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column fua_enr
+		dataType: string
+		lineageTag: 88bd509f-e549-4e82-9222-c249e87b3673
+		summarizeBy: none
+		sourceColumn: fua_enr
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dane_hackathon = m
+		mode: import
+		source =
+				let
+				    Źródło = Csv.Document(File.Contents("C:\Users\JO\Desktop\Hackathon\syntetyczne_transakcje_hackathon.csv"),[Delimiter=",", Columns=30, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Nagłówki o podwyższonym poziomie" = Table.PromoteHeaders(Źródło, [PromoteAllScalars=true]),
+				    #"Usunięto kolumny" = Table.RemoveColumns(#"Nagłówki o podwyższonym poziomie",{"", "_1", "_2", "_3", "_4", "_5", "_6"}),
+				    #"Zmieniono typ" = Table.TransformColumnTypes(#"Usunięto kolumny",{{"tran_cnt", Int64.Type}, {"pymt_crd_acct_num_raw", type text}, {"prod_id_pltfrm_cd_vcis", type text}, {"transaction_type", type text}, {"transaction_pos_entry_mode", type text}, {"mrch_nm_raw", type text}, {"mrch_catg_cd", Int64.Type}, {"mrch_catg_nm", type text}, {"mrch_city_nm_raw", type text}, {"cs_tran_amt", type text}, {"issr_jurn", type text}, {"issr_ctry_cd", Int64.Type}, {"issr_ctry_nm", type text}, {"crd_typ_cd", type text}, {"crd_typ_nm", type text}, {"channel_flg", type text}, {"cp_flag", Int64.Type}, {"prch_mnth_id", Int64.Type}, {"prch_dt", type date}, {"myweek", type text}, {"report_ctry", Int64.Type}, {"lau_enr", type text}, {"fua_enr", type text}}),
+				    #"Zamieniono wartość" = Table.ReplaceValue(#"Zmieniono typ",".",",",Replacer.ReplaceText,{"cs_tran_amt"}),
+				    #"Zmieniono typ1" = Table.TransformColumnTypes(#"Zamieniono wartość",{{"cs_tran_amt", Currency.Type}}),
+				    #"Zamieniono wartość1" = Table.ReplaceValue(#"Zmieniono typ1","Rzeszow","RZESZOW",Replacer.ReplaceText,{"mrch_city_nm_raw"}),
+				    #"Zamieniono wartość2" = Table.ReplaceValue(#"Zamieniono wartość1","Rzesz w","RZESZOW",Replacer.ReplaceText,{"mrch_city_nm_raw"}),
+				    #"Zamieniono wartość3" = Table.ReplaceValue(#"Zamieniono wartość2","Rzesz?w","RZESZOW",Replacer.ReplaceText,{"mrch_city_nm_raw"}),
+				    #"Zamieniono wartość4" = Table.ReplaceValue(#"Zamieniono wartość3","RZESZ?W","RZESZOW",Replacer.ReplaceText,{"mrch_city_nm_raw"}),
+				    #"Dodano kolumnę niestandardową" = Table.AddColumn(#"Zamieniono wartość4", "Niestandardowe", each if [fua_enr] = null or Text.Trim([fua_enr]) = ""
+				then "POZOSTALI"
+				else Text.Trim([fua_enr])),
+				    #"Usunięto kolumny1" = Table.RemoveColumns(#"Dodano kolumnę niestandardową",{"fua_enr"}),
+				    #"Zmieniono typ2" = Table.TransformColumnTypes(#"Usunięto kolumny1",{{"Niestandardowe", type text}}),
+				    #"Zmieniono nazwy kolumn" = Table.RenameColumns(#"Zmieniono typ2",{{"Niestandardowe", "fua_enr"}})
+				in
+				    #"Zmieniono nazwy kolumn"
+
+	annotation PBI_NavigationStepName = Nawigacja
+
+	annotation PBI_ResultType = Table
+
