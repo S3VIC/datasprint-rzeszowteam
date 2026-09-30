@@ -24,7 +24,22 @@ W dalszym etapie musimy zamienić zawartą tam ścieżkę na ścieżkę do pliku
 
 ![Otwarcie modelu danych](./docs/obraz4.png)
 
-Mając utworzony plik z danymi do raportu klikamy na niego prawym przyciskiem i klikamy opcję `Kopiuj jako ścieżkę`. Następnie pamiętając aby skopiowaną ścieżkę umieścić pomiędzy pojedynczymi cudzysłowami, usuwamy starą ścieżkę i wklejamy nową w miejsce zaznaczone na powyższym obrazie.  
+Mając utworzony plik z danymi do raportu klikamy na niego prawym przyciskiem i klikamy opcję `Kopiuj jako ścieżkę`. Następnie pamiętając aby skopiowaną ścieżkę umieścić pomiędzy pojedynczymi cudzysłowami, usuwamy starą ścieżkę i wklejamy nową w miejsce zaznaczone na powyższym obrazie. Następnie jeśli PowerBI nie odświeży zapytania automatycznie aby sprawdzić poprawność wczytywanego pliku danych możemy kliknąć `Odśwież podgląd`.
+
+
+# Obsługa aplikacji norm
+Aplikacja norm została utworzona jako uruchamiana z narzędzia terminala. W folderze głównym repozytorium znajdują się skrypty mające zbudować aplikację `norm` zarówno dla systemu Windows `build.ps1` oraz Linux/MacOS `build.sh`. Aby uruchomić skrypt należy przejść do głównego folderu repozytorium, klikamy prawym przyciskiem na pustą przestrzeń i wybieramy opcję `Otwórz w terminalu`. Uruchomienie skryptu odbywa się za pomocą komendy `./build.ps1` (w przypadku systemu Windows). W przypadku systemu MacOS/Linux należałoby jeszcze dodać do pliku uprawnienia wykonania poprzez komendę `chmod +x build.sh` I kolejno uruchomić komendą `./build.sh`.
+
+Zbudowana aplikacja zostanie utworzona w folderze `norm.cli/bin/Release/net10.0`. Należy do niego przejść i również otworzyć go w terminalu. Postać komendy uruchamiającej aplikację jest następująca: 
+
+`./norm.cli <parquet-path> <city-name[,city-name...]> [output-csv-path] [-<number>]`
+
+Gdzie: 
+- `parquet-path` to ścieżka do pliku z danymi w formacie parquet,
+- `city-name` - lista oddzielonych przecinkami nazw miast, dla których chcemy wyekstrahować dane,
+- `output-csv-path` - opcjonalna ścieżka do pliku wyjściowego (gdzie go zapisać),
+- `number` - opcjonalnie liczba rekordów do klazuli LIMIT aby ograniczyć dane wyjściowe 
+
 
 # Wykorzystane technologie:
 - .NET 10, C#,
