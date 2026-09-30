@@ -9,7 +9,7 @@ public static class QueryConstants {
 		"mrch_nm_raw",
 		"mrch_catg_cd",
 		"mrch_catg_nm",
-		"mrch_city_nm_raw",
+		"upper(\"mrch_city_nm_raw\") AS mrch_city_nm_raw",
 		"SUM(cs_tran_amt) AS cs_tran_amt",
 		"COUNT(cs_tran_amt) AS tran_cnt",
 		"issr_jurn",
