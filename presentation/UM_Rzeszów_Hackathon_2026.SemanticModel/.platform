@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "UM_Rzeszów_Hackathon_2026"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ebdf43c7-b5a7-4e29-ac82-8768e0ef728d"
+  }
+}
