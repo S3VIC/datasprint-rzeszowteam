@@ -1,10 +1,8 @@
 namespace norm.cli;
 
 public static class QueryBuilder {
-	private const String PolishUpperDiacritics = "ĄĆĘŁŃÓŚŻŹ";
-	private const String AsciiUpperReplacements = "ACELNOSZZ";
-	private const String NormalizedCityColumnExpression =
-		$"translate(upper(\"mrch_city_nm_raw\"), '{PolishUpperDiacritics}', '{AsciiUpperReplacements}')";
+	private const Int32 WildcardFallbackThreshold = 2;
+	private const String UpperCityColumnExpression = "upper(\"mrch_city_nm_raw\")";
 
 	public static String BuildSqlCommand(String parquetPath, String cityFilter, Int32? limit = null) {
 		if (String.IsNullOrWhiteSpace(parquetPath)) {
@@ -18,7 +16,7 @@ public static class QueryBuilder {
 		String escapedParquetPath = SqlLiteralEscaper.Escape(parquetPath);
 		String cityPredicate = String.Join(
 			" or ",
-			cityFilters.Select(filter => $"{NormalizedCityColumnExpression} like '{SqlLiteralEscaper.Escape(BuildCityLikePattern(filter))}'")
+			cityFilters.Select(BuildCityPredicate)
 		);
 		String columns = String.Join(',', QueryConstants.SelectQueryFields);
 		String limitClause = limit.HasValue ? $" limit {limit.Value}" : String.Empty;
@@ -43,7 +41,38 @@ public static class QueryBuilder {
 		return cityFilters;
 	}
 
-	private static String BuildCityLikePattern(String cityName) {
+	private static String BuildCityPredicate(String cityName) {
+		String wildcardPattern = BuildWildcardCityLikePattern(cityName);
+		String wildcardCondition = $"{UpperCityColumnExpression} like '{SqlLiteralEscaper.Escape(wildcardPattern)}'";
+
+		Int32 replacedDiacriticsCount = CountPolishDiacritics(cityName);
+		if (replacedDiacriticsCount < WildcardFallbackThreshold) {
+			return wildcardCondition;
+		}
+
+		String asciiPattern = BuildAsciiCityLikePattern(cityName);
+		if (String.Equals(wildcardPattern, asciiPattern, StringComparison.Ordinal)) {
+			return wildcardCondition;
+		}
+
+		String asciiCondition = $"{UpperCityColumnExpression} like '{SqlLiteralEscaper.Escape(asciiPattern)}'";
+		return $"({wildcardCondition} or {asciiCondition})";
+	}
+
+	private static String BuildWildcardCityLikePattern(String cityName) {
+		String upperCity = cityName.Trim().ToUpperInvariant();
+		return String.Concat(
+			upperCity.Select(character => character switch {
+				_ when IsPolishDiacritic(character) => '_',
+				>= 'A' and <= 'Z' => character,
+				>= '0' and <= '9' => character,
+				' ' or '-' or '_' => '_',
+				_ => '_'
+			})
+		);
+	}
+
+	private static String BuildAsciiCityLikePattern(String cityName) {
 		String normalizedCity = PolishTextNormalizer.NormalizeToAscii(cityName).Trim().ToUpperInvariant();
 		return String.Concat(
 			normalizedCity.Select(character => character switch {
@@ -53,5 +82,14 @@ public static class QueryBuilder {
 				_ => '_'
 			})
 		);
+	}
+
+	private static Int32 CountPolishDiacritics(String cityName) {
+		return cityName.Count(IsPolishDiacritic);
+	}
+
+	private static Boolean IsPolishDiacritic(Char character) {
+		return character is 'ą' or 'ć' or 'ę' or 'ł' or 'ń' or 'ó' or 'ś' or 'ż' or 'ź'
+			or 'Ą' or 'Ć' or 'Ę' or 'Ł' or 'Ń' or 'Ó' or 'Ś' or 'Ż' or 'Ź';
 	}
 }
